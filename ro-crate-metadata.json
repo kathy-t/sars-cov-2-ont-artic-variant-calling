@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-09-23T09:39:44.360747",
+            "datePublished": "2021-12-20T17:04:47.628302",
             "hasPart": [
                 {
                     "@id": "ont-artic-variation.ga"
@@ -42,7 +42,8 @@
                 {
                     "@id": "#test1"
                 }
-            ]
+            ],
+            "name": "sars-cov-2-ont-artic-variant-calling/COVID-19-ARTIC-ONT"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -71,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-ont-artic-variant-calling",
-            "version": "0.3"
+            "version": "0.3.1"
         },
         {
             "@id": "#galaxy",
@@ -114,7 +115,7 @@
             "@id": "#test1_1",
             "@type": "TestInstance",
             "name": "test1_1",
-            "resource": "repos/galaxyproject/iwc/actions/workflows/workflow_test.yml",
+            "resource": "repos/iwc-workflows/sars-cov-2-ont-artic-variant-calling/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
@@ -137,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.7"
+            "engineVersion": ">=0.74.9"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
