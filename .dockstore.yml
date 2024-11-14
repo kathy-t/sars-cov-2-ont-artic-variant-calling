@@ -7,5 +7,4 @@ workflows:
   testParameterFiles:
   - /ont-artic-variation-tests.yml
   authors:
-  - name: Wolfgang Maier
-    orcid: 0000-0002-9464-6640
+  - name: Staging Test
